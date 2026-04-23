@@ -313,7 +313,7 @@ public class Patrulha {
                     break;
             }
 
-        } while (suschoice != 4);
+        } while (suschoice != 4 && moral > 50);
 
         if(nivel == 4 && moral >= 70) {
             System.out.println("\nVocê será promovido à Detetive com base no seu Nível: " + nivel + " e sua Moral: " + moral);
